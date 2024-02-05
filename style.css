@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/Le-Clocher-Penche.jpg);
+    background-size: contain;
+    
+}
+.nav-first{
+    
+    display: flex;
+    gap: 17px;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+ 
+.nav-tile{
+    font-family: 'Big Shoulders Text';
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+.click:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hero{
+    background-color: #FBF9F1;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+}
+.about-image{
+    height:90vh;
+    border-radius: 5px;
+    width: 40%;
+    background-image: url(./images/about-banner.jpg);
+    background-size: cover;
+}
+.about-text{
+    width: 40%;
+    padding-left: 140px;
+}
+.about-text p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+}
+.about-text h1{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+.container{
+    height: 90vh;
+    padding-top: 40px;
+    width: 100%;
+    
+}
+.carousel .carousel-item{
+    object-fit: cover;
+    object-position: center;
+    height: 90vh;
+    overflow: hidden;
+}
+.review{
+    height: 50vh;
+    background-color: #3D3B40;
+    margin-top: 50px;
+}
+.searchbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.search{
+    border-radius: 5px;
+    padding-left: 8px;
+
+}
+.first{
+    display: flex;
+}
+.fir{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.sec{
+    padding-top: 20px;
+    text-align: center;
+}
+.submit{
+    margin-left: 10px;
+    background-color: rgb(247, 146, 146);
+    border-radius: 7px;
+    width: 60px;
+}
+.submit2{
+    margin-left: 5px;
+    margin-top: 7px;
+    background-color: rgb(247, 146, 146);
+    border-radius: 7px;
+}
+.end-nav{
+    display: flex;
+    gap: 17px;
+    padding-bottom: 20px;
+    text-decoration: none;
+   color: white;
+}
+
+.sub-sec{
+    width: 70px;
+    height: 30px;
+}
+.rev{
+    height: 30vh;
+    width: 30vw;
+    border-radius: 8px;
+}
+.search-sec{
+    padding-right: 80px;
+    text-align: center;
+}
+.details{
+    height: 30vh;
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-around;
+}
+.connect{
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+}
+.location{
+    display: block;
+    padding-left: 40px;
+}
+.connect p{
+    padding-top: 10px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    padding-left: 44%;
+    padding-bottom: 5px;
+}
+.content{
+    text-align: center;
+}
+

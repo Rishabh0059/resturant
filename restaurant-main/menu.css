@@ -1,0 +1,55 @@
+.starters{
+    display: inline-flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin: 0%;
+    justify-content: center;
+}
+img{
+    max-width: 19%;
+    max-height: auto;
+}
+.main{
+    display: inline-flex;
+    gap:5px;
+    flex-wrap: wrap;
+    margin: 0%;
+    justify-content: center;
+}
+.dessert{
+    display: inline-flex;
+    gap:5px;
+    flex-wrap: wrap;
+    margin: 0%;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+h2{
+    font-style: italic;
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img:hover{
+    margin-top: 5px;
+}
+body{
+    animation-name: example;
+    animation-duration: 1s;
+}
+@keyframes example{
+    from{
+        margin-top: 100%;
+    }
+}

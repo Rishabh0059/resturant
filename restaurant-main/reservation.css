@@ -1,0 +1,30 @@
+body{
+    background-image: url(res.jpg);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+@keyframes identifier {
+    0%{
+        margin-left: 100%;
+    }
+    25%{
+        margin-left: 85%;
+    }
+    50%{
+        margin-left: 70%;
+    }
+    75%{
+        margin-left: 55%;
+    }
+    100%{
+        margin-left: 50%;
+    }
+}
+div{
+    animation-name: identifier;
+    animation-duration: 3s;
+}
